@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400&display=swap');
+
+:root {
+  font-family: 'Roboto', sans-serif;
+}
+
+.personForm,
+.currentEducationForm,
+.currentWorkForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.15);
+}
+fieldset {
+  background-color: whitesmoke;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+legend {
+  padding: 0px 10px;
+}
+input:focus {
+  outline: none;
+}
+input {
+  padding: none;
+  width: 100%;
+  border: none;
+  background-color: whitesmoke;
+  font-size: 1.2rem;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  min-height: 200px;
+  outline: none;
+  border: none;
+  line-height: 1.2rem;
+  background-color: whitesmoke;
+}
+
+.inputHighlight {
+  border-color: rgb(36, 12, 250);
+}
+.personFormHeadingContainer,
+.educationFormHeadingContainer,
+.workFormHeadingContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}

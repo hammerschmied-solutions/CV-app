@@ -1,0 +1,12 @@
+.cvContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0px;
+  flex-basis: 900px;
+  background-color: white;
+  border-radius: 0px;
+  box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.15);
+  min-height: 85vh;
+  padding-bottom: 3cqmax;
+}

@@ -1,0 +1,18 @@
+.appContainer {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-basis: 500px;
+  flex-shrink: 0.8;
+}
+
+:root {
+  background-color: whitesmoke;
+}

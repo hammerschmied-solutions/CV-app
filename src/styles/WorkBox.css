@@ -1,0 +1,27 @@
+.workBox {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 20px 20px 20px;
+  grid-template-rows: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+.notExpanded {
+  display: grid;
+  grid-template-columns: 1fr 20px 20px 20px;
+  grid-template-rows: 1fr;
+  gap: 5px;
+}
+.expanded {
+  display: grid;
+  grid-template-columns: 1fr 20px 20px 20px;
+  grid-template-rows: repeat(1fr / 5);
+  gap: 5px;
+}
+
+.expandedInfo {
+  grid-column: 1 / 4;
+}
